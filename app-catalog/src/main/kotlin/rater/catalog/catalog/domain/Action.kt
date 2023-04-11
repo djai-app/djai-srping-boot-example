@@ -22,11 +22,10 @@ import org.hibernate.annotations.LazyCollectionOption
 * @param triggerValue 
 * @param triggerValueUnit 
 * @param updatedDate 
-* @param testNewField 
 */
 @javax.annotation.Generated(value = ["org.openapitools.codegen.CodeCodegen"], comments = "version:")
 
-@JsonPropertyOrder("actionSet", "actionSetId", "command", "commandType", "createdDate", "description", "id", "isDeleted", "name", "triggerId", "triggerValue", "triggerValueUnit", "updatedDate", "testNewField")
+@JsonPropertyOrder("actionSet", "actionSetId", "command", "commandType", "createdDate", "description", "id", "isDeleted", "name", "triggerId", "triggerValue", "triggerValueUnit", "updatedDate")
 
 @Entity
 @Table(name = "action")
@@ -66,10 +65,7 @@ data class Action(
 	var triggerValueUnit: String?,
 
 	@Column(name = "updated_date")
-	var updatedDate: java.sql.Timestamp?,
-
-	@Column(name = "test_new_field")
-	var testNewField: Boolean?
+	var updatedDate: java.sql.Timestamp?
 
 ) : BaseResource()
 
