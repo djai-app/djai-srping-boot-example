@@ -160,8 +160,7 @@ class ActionSetControllerApiIT : AbstractIntegrationTest<ActionSet>() {
 					triggerId = "test string value",
 					triggerValue = 9223372036854775807L,
 					triggerValueUnit = "test string value",
-					updatedDate = java.sql.Timestamp(System.currentTimeMillis()),
-					testNewField = false
+					updatedDate = java.sql.Timestamp(System.currentTimeMillis())
 				)),
 				createdDate = java.sql.Timestamp(System.currentTimeMillis()),
 				description = null,
@@ -186,8 +185,7 @@ class ActionSetControllerApiIT : AbstractIntegrationTest<ActionSet>() {
 					triggerId = "test string value",
 					triggerValue = 9223372036854775807L,
 					triggerValueUnit = "test string value",
-					updatedDate = java.sql.Timestamp(System.currentTimeMillis()),
-					testNewField = false
+					updatedDate = java.sql.Timestamp(System.currentTimeMillis())
 				)),
 				createdDate = java.sql.Timestamp(System.currentTimeMillis()),
 				description = "test string value",

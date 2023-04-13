@@ -37,7 +37,6 @@
 			<column name="trigger_value" type="bigint" />
 			<column name="trigger_value_unit" type="VARCHAR(255)" />
 			<column name="updated_date" type="VARCHAR(255)" />
-			<column name="test_new_field" type="${BOOLEAN_VALUE}" />
 		</createTable>
 	</changeSet>
 	<changeSet author="CodeGeneration" id="create_generated_table_action_set" labels="version:">
